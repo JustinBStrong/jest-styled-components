@@ -14,7 +14,7 @@ const hasClassName = (node) =>
 
 const getClassNames = (received) => {
   let className;
-
+let test = "hooo"
   if (received) {
     if (received.$$typeof === Symbol.for('react.test.json')) {
       className = received.props.className || received.props.class;
